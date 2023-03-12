@@ -25,6 +25,15 @@ body {
   font-size: 2rem;
 }
 
+/* Utilits */
+.white-bg {
+  background-color: var(--white-color);
+}
+
+.height-bg {
+  min-height: 100vh;
+}
+
 h1 {
   font-size: 6rem;
   text-transform: uppercase;
@@ -63,11 +72,6 @@ a {
 
 /* end config default */
 
-/* Utilits */
-.white-bg {
-  background-color: var(--white-color);
-}
-
 /* nav container */
 .nav-container {
   display: flex;
@@ -76,7 +80,7 @@ a {
 
   border-bottom: 0.2rem solid var(--light-gray-color);
   width: 100%;
-  margin: 0 auto;
+
   padding: 0 var(--gap);
   padding-top: 0;
   padding-bottom: 0;
